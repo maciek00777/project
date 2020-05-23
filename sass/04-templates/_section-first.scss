@@ -1,0 +1,40 @@
+.t-s-first
+{
+    background-color: $gray-dark;
+
+    &__devider
+    {
+        height: 1px;
+        background-color: $gray;
+    }
+
+    &__content
+    {
+        background-color: $turkus ;
+        padding-bottom: $grid-base*3;
+        padding-top: $grid-base*2;
+    }
+
+    &__img
+    {
+        position: relative;
+        &__label
+        {
+            position: absolute;
+            top: $grid-base;
+            left:$grid-base;
+            right: $grid-base*3;
+            color:$light-blue;
+            text-align: center;
+            font-size: $font-size-2;
+            font-style: italic;
+        }
+        &__btn
+        {
+            position: absolute;
+            bottom: 2*$grid-base;
+            left:$grid-base*3;
+            right: $grid-base*5;
+        }
+    }
+}

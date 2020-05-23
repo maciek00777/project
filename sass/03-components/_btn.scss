@@ -1,0 +1,22 @@
+.c-btn
+{
+    background: $blue-gradient;
+    color: $white;
+    text-align:center;
+    border-radius: $grid-base*0.5;
+    font-weight: bold;
+    font-size:$font-size-5;
+    padding: $grid-base 3*$grid-base;
+    transition: all .25s ease-in-out;
+
+    &--side
+    {
+        text-transform: uppercase;
+        filter: drop-shadow(0 5px 3px $black);
+    }
+    &:hover
+    {
+        color: $white;
+        background: $blue-gradient-darken;
+    }
+}

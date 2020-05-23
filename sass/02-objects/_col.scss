@@ -1,0 +1,26 @@
+.o-col
+{
+    width: 100%;
+    padding-right: $grid-base*2;
+    &--33
+    {
+        flex-basis: 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    &--66
+    {
+        flex-basis: 66.66666%;
+        max-width: 66.66666%;
+    }
+    &--25
+    {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    &--50
+    {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}

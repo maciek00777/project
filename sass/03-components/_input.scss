@@ -1,0 +1,11 @@
+.c-input{
+    &--newsletter{
+        padding:$grid-base;
+        border-radius: $grid-base*0.5;
+        font-size: $font-size-5;
+        outline: none;
+        border: none;
+        width: 300px;
+        margin: $grid-base 2*$grid-base $grid-base 0;
+    }
+}

@@ -1,0 +1,14 @@
+.c-list {
+    list-style-type: none;
+    &__item {
+        margin-bottom: $grid-base * 1.5;
+        font-size: $font-size-5;
+        font-weight: 300;
+        opacity: 60%;
+        
+        &__text
+        {
+            color: $light-gray;
+        }
+    }
+}

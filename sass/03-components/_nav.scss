@@ -1,0 +1,9 @@
+.c-nav__item
+{
+    font-size: $font-size-4;
+    text-align: center;
+    &--active
+    {
+        color: $blue-text;
+    }
+}

@@ -1,0 +1,9 @@
+.o-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &--center-y {
+        align-items: center;
+    }
+}
